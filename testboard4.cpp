@@ -24,10 +24,11 @@ void main()
     
     //ascending
     sort(myVector.begin(), myVector.end());
-    cetakVector(myVector, "\033[36mIsi vector setelah sorting ASC\033[0m");
+    cetakVector(myVector, "\033[36mIsi vector setelah sorting Ascending : \033[0m");
 
     //descending
     reverse(myVector.begin(), myVector.end());
-    cetakVector(myVector, "\033[34mIsi vector setelah sorting DSC\033[0m");
+    cetakVector(myVector, "\033[34mIsi vector setelah sorting Descending : \033[0m");
 }
+
 
